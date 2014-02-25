@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Innovative Design - Web Tier">
+
+<title>
+  {% if page.title == "Celli @ Berkeley" %}
+    {{ page.title }}
+  {% else if %}
+    {{ page.title }} &middot; Celli @ Berkeley
+  {% endif %}
+</title>
+
+<!-- CSS -->
+<link href="{{ page.base_url }}static/css/base.css" rel="stylesheet">

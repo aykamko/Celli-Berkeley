@@ -1,0 +1,6 @@
+name: Celli @ Berkeley
+pygments: true
+static: /static
+destination: _deploy
+exclude: [rakefile, README.md]
+include: [.gitignore]

@@ -1,0 +1,117 @@
+/*-------- Site Wide ----------------------------------------------------------*/
+
+.container {
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 750px;
+	}
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*-------- Header ------------------------------------------------------------*/
+
+.header-div {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*---------- Nav Bar ---------------------------------------------------------*/
+.nav-div {
+	margin-top: 1em;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	float: left;
+	display: block;
+}
+
+.nav-div nav {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.nav-div nav ul {
+	width: auto;
+	margin: auto;
+	display: inline-block;
+	list-style: none;
+	list-style-image: none;
+
+	font-family: "Helvetica Neue", "Arial", "sans-serif";
+	font-size: 20px;
+	line-height: 2.8em;
+	text-transform: lowercase;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: normal;
+	font-style: normal;
+
+	background-color: #fff;
+
+	-webkit-padding-start: 0;
+	padding: 0 0.8em;
+}
+
+.nav-div nav ul > li {
+	font-size: 20px;
+	line-height: 2.0em;
+	margin: 0.4em 0;
+	float: left;
+	position: relative;
+}
+
+.nav-div nav li > a {
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	background-color: #fff;
+	color: #000;
+	padding: 0 0.8em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.nav-div nav li > a:hover {
+    background-color: #999;
+    color: #fff;
+}
+
+.nav-div .page-divider {
+	margin-top: -1.6em;
+	margin-bottom: 1.6em;
+	font-size: 20px;
+	border-bottom: 1px solid #000 !important;
+}
+
+.nav-div .midbar {
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	-o-user-select: none;
+	user-select: none;
+	cursor: default;
+	margin: 0.4em 14px 0.4em 16px;
+}
+
+/*----------------------------------------------------------------------------*/
